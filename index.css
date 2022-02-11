@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #efefef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#fetchBlock {
+  width: 100%;
+  height: 100vh;
+}
+#fetchBlock article {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+#fetchBlock article form {
+  background: #fff;
+  position: relative;
+  border-radius: 10px;
+  width: 53%;
+  margin: 0 auto;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+}
+#fetchBlock article form h2 {
+  font-size: 20px;
+  color: rgb(10, 137, 196);
+  padding: 10px;
+}
+.control-form {
+  display: flex;
+}
+.control-form label {
+  padding: 5px;
+  width: 80%;
+  margin: 3px 20px;
+  flex-basis: 40%;
+}
+.control-form input {
+  display: flex;
+  padding: 5px;
+  width: 80%;
+  margin: 4px 28px;
+  border-radius: 5px;
+  flex-basis: 60%;
+  border: 0.5px solid #111;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.btn1 button {
+  position: absolute;
+    top: 225px;
+    left: 546px;
+    z-index: 111;
+    width: 10%;
+    height: 32px;
+    background-color: rgb(10, 137, 196);
+    border: none;
+    border-radius: 5px;
+
+}
+.btn button {
+  width: 25%;
+  height: 32px;
+  background-color: rgb(10, 137, 196);
+  border: none;
+  border-radius: 5px;
+}
+.table {
+  margin-top: 65px;
+  width: 80%;
+  margin-inline: auto;
+}
+.tablerow {
+  margin-top: 70px;
+  height: 50px;
+  width: 80%;
+  background: white;
+}
+.table th {
+  background-color: #111;
+  color: #fff;
+}
+.tablerow td {
+  padding: 10px;
+  align-items: center;
+}
+.deleteBtn {
+  background-color: rgba(243, 94, 94, 0.911);
+  color: #111;
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+.editBtn {
+  background-color: rgba(113, 240, 113, 0.856);
+  color: #111;
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
